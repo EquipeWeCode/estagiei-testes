@@ -1,0 +1,168 @@
+{
+  "id": "e7395d11-e918-4bd4-bffd-15222a48a16e",
+  "version": "2.0",
+  "name": "Estagiei Teste automatizado",
+  "url": "https://estagiei.netlify.app/login",
+  "tests": [{
+    "id": "3de063ba-894b-4bb8-b1e0-80573a282a2b",
+    "name": "Teste EstagiEI",
+    "commands": [{
+      "id": "e52f28a8-ccbd-4d9b-9837-54a43569f4a5",
+      "comment": "",
+      "command": "open",
+      "target": "https://estagiei.netlify.app/login",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "4e97e575-78c7-479b-968b-5b863816a173",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "937x737",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "bc9b157f-d7ed-4612-8801-c9bfc64ca43a",
+      "comment": "",
+      "command": "click",
+      "target": "css=button:nth-child(1) > span",
+      "targets": [
+        ["css=button:nth-child(1) > span", "css:finder"],
+        ["xpath=//div[@id='root']/div[2]/div/div/div/button/span", "xpath:idRelative"],
+        ["xpath=//div/div/button/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Entrar com o Google')]", "xpath:innerText"]
+      ],
+      "value": "",
+      "opensWindow": true,
+      "windowHandleName": "win991",
+      "windowTimeout": 2000
+    }, {
+      "id": "f00439a0-bf9f-4cbb-9e5d-714f99113623",
+      "comment": "",
+      "command": "storeWindowHandle",
+      "target": "root",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "a563d0b6-86a3-4fb1-a524-e34305dfb027",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${win991}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e2c95f9f-abeb-4ce0-bb2e-9ec6af3ae0c2",
+      "comment": "",
+      "command": "click",
+      "target": "css=.JDAKTe:nth-child(1) .wLBAL",
+      "targets": [
+        ["css=.JDAKTe:nth-child(1) .wLBAL", "css:finder"],
+        ["xpath=//div[@id='view_container']/div/div/div[2]/div/div/div/form/span/section/div/div/div/div/ul/li/div/div/div/div[2]/div[2]", "xpath:idRelative"],
+        ["xpath=//div[2]/div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "622d0798-4a3a-418d-955a-e1710ad2ee04",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "36411268-03ca-4a09-9a88-1149e9ada73f",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${root}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "34fc2404-25b9-4c2c-b51c-ff035cc7ec33",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Editar perfil",
+      "targets": [
+        ["linkText=Editar perfil", "linkText"],
+        ["css=.ant-btn > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Editar perfil')]", "xpath:link"],
+        ["xpath=//div[@id='root']/div/div/div/button/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/cadastro/estudante')]", "xpath:href"],
+        ["xpath=//button/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Editar perfil')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "8d1acb8a-50af-46e8-bfb9-db9ff2a9ab06",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ant-picker-input",
+      "targets": [
+        ["css=.ant-picker-input", "css:finder"],
+        ["xpath=//form[@id='cadastroEstudante']/div[4]/div/div/div/div/div", "xpath:idRelative"],
+        ["xpath=//div[4]/div/div/div/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c751fb36-2b2c-4bb1-88f9-4d063a53edd0",
+      "comment": "",
+      "command": "click",
+      "target": "css=tr:nth-child(3) > .ant-picker-cell:nth-child(1) > .ant-picker-cell-inner",
+      "targets": [
+        ["css=tr:nth-child(3) > .ant-picker-cell:nth-child(1) > .ant-picker-cell-inner", "css:finder"],
+        ["xpath=//tr[3]/td/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "148c1bcb-eaa7-4dce-bf9e-e1b0cb450c80",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ant-select-selection-overflow-item:nth-child(5) > .ant-select-selection-item",
+      "targets": [
+        ["css=.ant-select-selection-overflow-item:nth-child(5) > .ant-select-selection-item", "css:finder"],
+        ["xpath=//form[@id='cadastroEstudante']/div[6]/div/div/div/div/div/div/div[5]/span", "xpath:idRelative"],
+        ["xpath=//div[5]/span", "xpath:position"],
+        ["xpath=//span[contains(.,'ÉTICA NO TRABALHO')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "e22fc6da-edca-4f1c-a05e-3da265b4e5da",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ant-select-selection-overflow-item:nth-child(5) svg",
+      "targets": [
+        ["css=.ant-select-selection-overflow-item:nth-child(5) svg", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "868e1ea1-abcf-41c1-9f1e-754b7c5198bd",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ant-select-item-option-active > .ant-select-item-option-content",
+      "targets": [
+        ["css=.ant-select-item-option-active > .ant-select-item-option-content", "css:finder"],
+        ["xpath=//div/div[4]/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4e1d1e05-bf66-4623-95ab-4fa985fbb974",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ant-btn > span",
+      "targets": [
+        ["css=.ant-btn > span", "css:finder"],
+        ["xpath=//form[@id='cadastroEstudante']/div[7]/div/div/div/button[2]/span", "xpath:idRelative"],
+        ["xpath=//button[2]/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Salvar')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "9df5496f-9523-486f-ac83-3018183e0ea1",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": []
+  }],
+  "urls": ["https://estagiei.netlify.app/login"],
+  "plugins": []
+}
