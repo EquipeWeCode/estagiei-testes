@@ -1,2 +1,2 @@
 # estagiei-testes
-Testes da aplicação estagiEI
+Testes da aplicação EstagiEI
